@@ -1,0 +1,14 @@
+.footer__copyright {
+    text-align: end;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    text-align: start;
+  }
+}
