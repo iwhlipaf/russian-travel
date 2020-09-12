@@ -1,5 +1,8 @@
 # Проект 3: Путешествие по России
 
+Ссылка на старницу проекта.
+https://iwhlipaf.github.io/russian-travel/index.html 
+
 ### Обзор
 * Интро
 * Figma
