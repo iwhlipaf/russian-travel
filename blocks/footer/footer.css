@@ -1,10 +1,9 @@
 .footer {
-    width: 93.67%;
-    margin: 0 auto;
-    padding-top: 92px;
-    display: grid;
-    grid-template-columns: repeat(5, min-content) 1fr;
-    
+  width: 92.5%;
+  margin: 0 auto;
+  padding: 92px 0 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,10 +12,14 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer {
     padding-top: 64px;
-    display: flex;
-    flex-direction: column;
   }
 }

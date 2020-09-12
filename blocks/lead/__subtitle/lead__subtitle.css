@@ -9,8 +9,14 @@
     text-align: center;
 }
 
+@media screen and (max-width: 780px) {
+  .lead__subtitle {
+    max-width: 92%;
+    font-size: 22px;
+  }
+}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 460px) {
     .lead__subtitle {
     width: 288px;
     font-size: 16px;
