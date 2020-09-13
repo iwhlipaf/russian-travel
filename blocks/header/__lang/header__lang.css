@@ -1,0 +1,9 @@
+.header__lang {
+  color: #FFFFFF;
+  margin: 0 0 0 18px;
+  text-decoration: none;
+}
+
+.header__lang:hover {
+  opacity: 0.8;
+}

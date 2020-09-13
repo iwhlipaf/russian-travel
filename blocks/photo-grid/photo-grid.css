@@ -4,17 +4,25 @@
   padding-top: 92px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  gap: 0.9vw;
+  gap: 16px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
   .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .photo-grid {
+    gap: 16px;
     padding-top: 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .photo-grid {
+    gap: 12px;
     padding-top: 64px;
   }
 }

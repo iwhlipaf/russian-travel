@@ -1,9 +1,9 @@
 .place__website {
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: flex-start;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 460px) {
