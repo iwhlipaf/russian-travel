@@ -1,9 +1,9 @@
-.header__lang_ru {
+.header__lang_active_ru {
   color: #FFFFFF;
   margin: 0;
   text-decoration: underline ;
 }
 
-.header__lang_ru:hover {
+.header__lang_active_ru:hover {
   opacity: 0.8;
 }
